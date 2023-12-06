@@ -10,7 +10,7 @@ namespace CursoCSharp
         static void Main(string[] args)
         {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
-                //Capítulo 1
+                //Capítulo 1 - Introduction to algorithms
                 {"Pesquisa Binária | Binary Search", PesquisaBinaria.Executar},
                 
             });
