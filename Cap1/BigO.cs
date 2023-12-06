@@ -53,6 +53,31 @@ namespace EntendendoAlgoritmos.Cap1
             *                 Por quê? Se você está com dúvidas, vá para "Notação Big O revisada", no Capítulo 4, leia a parte sobre constantes na notação Big O (Uma constante é apenas um número; 26 era a constante em questão).
         */
 
+        /*  O caixeiro-viajante:
+            *   Este é um problema famoso da ciência da computação.
+            *       
+            *   O caixeiro quer passar por 5 cidades diferentes percorrendo o menor caminho.
+            *       Existem 120 permutações para cinco cidades, logo, precisa-se de 120 operaçòes para resolver o problema de cinco cidade.
+            *       Para 6 cidades, precisa-se de 720 operaçòes (ou 720 permutações).
+            *       Para 7 cidades, são necessárias 5.050 operações!
+            *   
+            *   O número de operações aumenta drasticamente!
+            *   De maneira geral, para 'n' itens, são necessários n! (fatorial de 'n') operações oara chegar a um resultado.
+            *   
+            *   Este é um problema sem solução, não existe um algoritmo mais rápido para este problema.
+            *   O melhor que se pode fazer é chegar a uma solução aproximada. Ver o Capítulo 10 para saber mais.
+            *   
+            *   Observação final: Se você é um leitor avançado, leia sobre árvores binárias de busca! ÁRVORES BINÁRIAS DE BUSCA!
+            *   
+        */
+
+        /*  RECAPITULANDO:
+             *      - A pesquisa binária é muito mais rápida di que a pesquisa simples.
+             *      - O(Log n) é mais rápido do que O(n), e O(Log n) fica ainda mais rápido conforma os elementos da lista aumentam.
+             *      - A rapidez de um algoritmo não é medida em segundos.
+             *      - O tempo de execução de um algoritmo é medido por meio de seu crescimento.
+             *      - O tempo de execuçào dos algoritmos é expresso na notação Big O.
+        */
 
 
     }
