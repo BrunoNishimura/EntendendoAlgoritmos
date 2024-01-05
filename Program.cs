@@ -15,7 +15,8 @@ namespace CursoCSharp
                 {"Pesquisa Binária | Binary Search", PesquisaBinaria.Executar},
                                 
                 //Capítulo 2 - Selection sort
-                {"Selection sort", Cap2_SelectionSort.Executar},
+                {"Selection Sort", Cap2_SelectionSort.Executar},
+                {"Double Selection Sort", DoubleSelectionSort.Executar},
 
             });
 
