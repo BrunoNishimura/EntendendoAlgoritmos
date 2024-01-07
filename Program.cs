@@ -19,8 +19,9 @@ namespace CursoCSharp
                 {"Selection Sort", Cap2_SelectionSort.Executar},
                 {"Double Selection Sort", DoubleSelectionSort.Executar},
 
-                //Capítulo 2 - Selection sort
+                //Capítulo 3 - Recursion
                 {"Countdown", Cap3_01_Countdown.Executar},
+                {"Greet", Cap3_02_Greet.Executar},
 
             });
 

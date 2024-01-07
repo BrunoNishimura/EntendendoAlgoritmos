@@ -8,10 +8,10 @@ namespace EntendendoAlgoritmos.Cap3
 {
     internal class Cap3_01_Countdown
     {
-                private static void Countdown(int i)
+        private static void Countdown(int i)
         {
             Console.WriteLine(i);
-            
+
             // base case
             if (i <= 0) return;
 
