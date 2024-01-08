@@ -22,6 +22,7 @@ namespace CursoCSharp
                 //Capítulo 3 - Recursion
                 {"Countdown", Cap3_01_Countdown.Executar},
                 {"Greet", Cap3_02_Greet.Executar},
+                {"Factorial", Cap3_03_Factorial.Executar},
 
             });
 
