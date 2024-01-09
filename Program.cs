@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using EntendendoAlgoritmos.Cap1;
 using EntendendoAlgoritmos.Cap2;
 using EntendendoAlgoritmos.Cap3;
+using EntendendoAlgoritmos.Cap4;
 
 namespace CursoCSharp
 {
@@ -24,8 +25,13 @@ namespace CursoCSharp
                 {"Greet", Cap3_02_Greet.Executar},
                 {"Factorial", Cap3_03_Factorial.Executar},
 
-            });
+                //Capítulo 4 - Quicksort
+                {"Loop Sum", Cap4_01_Loop_Sum.Executar }
 
+            })
+            {
+
+            };
             central.SelecionarEExecutar();
         }
     }
