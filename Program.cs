@@ -26,7 +26,8 @@ namespace CursoCSharp
                 {"Factorial", Cap3_03_Factorial.Executar},
 
                 //Capítulo 4 - Quicksort
-                {"Loop Sum", Cap4_01_Loop_Sum.Executar }
+                {"Loop Sum", Cap4_01_Loop_Sum.Executar },
+                {"Recursive Sum", Cap4_02_Recursive_Sum.Executar }
 
             })
             {
