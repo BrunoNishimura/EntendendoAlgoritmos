@@ -28,7 +28,8 @@ namespace CursoCSharp
                 //Capítulo 4 - Quicksort
                 {"Loop Sum", Cap4_01_Loop_Sum.Executar},
                 {"Recursive Sum", Cap4_02_Recursive_Sum.Executar},
-                {"Recursive Count", Cap4_03_Recursive_Count.Executar}
+                {"Recursive Count", Cap4_03_Recursive_Count.Executar},
+                {"Recursive Max", Cap4_03_Recursive_Count.Executar},
 
             })
             {
