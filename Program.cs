@@ -5,6 +5,7 @@ using EntendendoAlgoritmos.Cap1;
 using EntendendoAlgoritmos.Cap2;
 using EntendendoAlgoritmos.Cap3;
 using EntendendoAlgoritmos.Cap4;
+using EntendendoAlgoritmos.Codewars._6kyu;
 
 namespace CursoCSharp
 {
@@ -31,6 +32,8 @@ namespace CursoCSharp
                 {"Recursive Count", Cap4_03_Recursive_Count.Executar},
                 {"Recursive Max", Cap4_04_Recursive_Max.Executar},
 
+                //CodeWars - 6 Kyu
+                {"Conversor de Numeros Romanos", RomanConverter.Executar }
             })
             {
 
