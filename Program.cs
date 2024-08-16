@@ -34,11 +34,9 @@ namespace CursoCSharp
 
                 //CodeWars - 6 Kyu
                 {"Conversor de Numeros Romanos", RomanConverter.Executar },
-                {"Cada digito elevado ao quadrado", SquareDigits.Executar } //Eficiencia do codigo
-            })
-            {
-
-            };
+                {"Cada digito elevado ao quadrado", SquareDigits.Executar }, //Eficiencia do codigo
+                {"Ordernar palavras por numeros", OrderWordsByNumber.Executar }
+            });
             central.SelecionarEExecutar();
         }
     }
