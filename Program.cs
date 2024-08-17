@@ -6,6 +6,7 @@ using EntendendoAlgoritmos.Cap2;
 using EntendendoAlgoritmos.Cap3;
 using EntendendoAlgoritmos.Cap4;
 using EntendendoAlgoritmos.Codewars.kyu_6;
+using EntendendoAlgoritmos.Codewars.kyu_hard;
 
 namespace CursoCSharp
 {
@@ -35,7 +36,8 @@ namespace CursoCSharp
                 //CodeWars - 6 Kyu
                 {"Conversor de Numeros Romanos", RomanConverter.Executar },
                 {"Cada digito elevado ao quadrado", SquareDigits.Executar }, //Eficiencia do codigo
-                {"Ordernar palavras por numeros", OrderWordsByNumber.Executar }
+                {"Ordernar palavras por numeros", OrderWordsByNumber.Executar },
+                {"Ferias acessiveis", AffordableVacation.Executar }          //Bastante desafiador, performance como criterio de aceite
             });
             central.SelecionarEExecutar();
         }
