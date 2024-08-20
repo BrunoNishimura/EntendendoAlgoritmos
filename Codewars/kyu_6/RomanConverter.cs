@@ -25,9 +25,9 @@ namespace EntendendoAlgoritmos.Codewars.kyu_6
 
             Console.WriteLine("num:" + num);
             Console.WriteLine("thousands[num / 1000]:" + num / 1000 + " " + thousands[num / 1000]); //Passo 1
-            Console.WriteLine("hundreds[(num % 1000) / 100]: " + (num % 1000) / 100 + " " + hundreds[(num % 1000) / 100]); //Passo 1
-            Console.WriteLine("tens[(num % 100) / 10]: " + (num % 100) / 10 + " " + tens[(num % 100) / 10]); //Passo 1
-            Console.WriteLine("ones[num % 10]: " + num % 10 + " " + ones[num % 10]); //Passo 1
+            Console.WriteLine("hundreds[(num % 1000) / 100]: " + (num % 1000) / 100 + " " + hundreds[(num % 1000) / 100]); //Passo 2
+            Console.WriteLine("tens[(num % 100) / 10]: " + (num % 100) / 10 + " " + tens[(num % 100) / 10]); //Passo 3
+            Console.WriteLine("ones[num % 10]: " + num % 10 + " " + ones[num % 10]); //Passo 4
 
             return roman;
         }

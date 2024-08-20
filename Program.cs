@@ -37,7 +37,8 @@ namespace CursoCSharp
                 {"Conversor de Numeros Romanos", RomanConverter.Executar },
                 {"Cada digito elevado ao quadrado", SquareDigits.Executar }, //Eficiencia do codigo
                 {"Ordernar palavras por numeros", OrderWordsByNumber.Executar },
-                {"Ferias acessiveis", AffordableVacation.Executar }          //Bastante desafiador, performance como criterio de aceite
+                {"Ferias acessiveis", AffordableVacation.Executar }, //Bastante desafiador, performance como criterio de aceite
+                {"Inverso da Sequencia", CPNU_RevertSequence.Executar }, //Desafio da Prova do CPNU
             });
             central.SelecionarEExecutar();
         }
