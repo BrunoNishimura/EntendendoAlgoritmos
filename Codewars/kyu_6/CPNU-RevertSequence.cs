@@ -8,18 +8,26 @@ namespace EntendendoAlgoritmos.Codewars.kyu_6
 {
     internal class CPNU_RevertSequence
     {
-        public static int InverterValores(int number)
-        {
-            int valorInvertido = number + 1;
 
-            return valorInvertido;
-        }
+public int InverterDigitos(int numero)
+{
+    int resultado = 0;
+    
+    while (numero > 0)
+    {
+        int digito = numero % 10;       // Obtém o último dígito
+        resultado = resultado * 10 + digito;  // Adiciona o dígito ao resultado
+        numero /= 10;                   // Remove o último dígito do número
+    }
+    
+    return resultado;
+}
 
         public static void Executar()
         {
             int teste = 1234;
 
-            Console.WriteLine(InverterValores(teste));
+            Console.WriteLine(InverterDigitos(teste));
         }
     }
 }
