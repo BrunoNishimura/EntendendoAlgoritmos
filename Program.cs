@@ -5,6 +5,7 @@ using EntendendoAlgoritmos.Cap1;
 using EntendendoAlgoritmos.Cap2;
 using EntendendoAlgoritmos.Cap3;
 using EntendendoAlgoritmos.Cap4;
+using EntendendoAlgoritmos.Codewars.kyu_5;
 using EntendendoAlgoritmos.Codewars.kyu_6;
 using EntendendoAlgoritmos.Codewars.kyu_hard;
 
@@ -38,6 +39,12 @@ namespace CursoCSharp
                 {"Cada digito elevado ao quadrado", SquareDigits.Executar }, //Eficiencia do codigo
                 {"Ordernar palavras por numeros", OrderWordsByNumber.Executar },
                 {"Ferias acessiveis", AffordableVacation.Executar }, //Bastante desafiador, performance como criterio de aceite
+                
+                //Codewars - 5 kyu
+                {"Seguindos os Zeros, após resolver o Fatorial", FatorialAndTrailingZeros.Executar }, //Bastante desafiador, performance como criterio de aceite
+
+
+                //Prova
                 {"Inverso da Sequencia", CPNU_RevertSequence.Executar }, //Desafio da Prova do CPNU
             });
             central.SelecionarEExecutar();
